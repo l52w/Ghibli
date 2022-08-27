@@ -1,15 +1,24 @@
-* { margin: 0; padding: 0; text-decoration: none; list-style: none; }
+@font-face {
+    font-family: 'Cafe24Simplehae';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Simplehae.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+
+* { margin: 0; padding: 0; text-decoration: none; list-style: none; font-family: 'Cafe24Simplehae';}
 #wrap { width: 1400px; margin: 0 auto; }
 
 header { 
     width: 100%; height: 668px; 
-    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('/img/main.jpg'); background-size: 1400px; 
+    background-image: linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.2) ), url('/img/main.jpg'); background-size: 1400px; 
 }
-header .logo img { width: 700px; margin-left: 350px; margin-top: 100px; filter: opacity(0.5) drop-shadow(0 0 0 #ffffff);}
+header .logo img { width: 700px; margin-left: 330px; margin-top: 180px; opacity: 0.9;}
 header .nav { display: flex; justify-content: center; padding-top: 30px; margin-left: 100px;}
 header .nav ul { width: 800px; display: flex; align-items: center; justify-content: center; }
 header .nav li { width: 800px; display: flex; justify-content: space-between; grid-column-gap: 20px; }
 header .nav a { color: #fff; font-weight: bold; }
+header .nav a:hover { text-decoration: underline; color: #D2D79F;}
 
 #s1 {
     width: 100%; height: 700px; 
@@ -21,31 +30,34 @@ header .nav a { color: #fff; font-weight: bold; }
 #s1 .left .about2 { position: absolute; }
 #s1 .left .about2 img { width: 350px; margin-top: -150px; margin-left: 250px; }
 #s1 .right { width: 700px; padding: 20px; line-height: 40px; padding-left: 100px; }
-#s1 h1 a { font-size: 50px; color: cornflowerblue; }
-#s1 hr { width: 150px; margin-bottom: 30px;}
+#s1 h1 a { font-size: 50px; color: #42855B; }
+#s1 hr { width: 155px; margin-bottom: 30px;}
 #s1 p { font-size: 20px;}
 #s1 .more { margin-left: 480px; margin-top: 50px; font-size: 25px; text-decoration: underline; }
-#s1 .more a { color: #000; }
+#s1 .more a { color: #90B77D; }
 
 #l1 { width: 100%; height: 330px; margin-bottom: 100px;}
 #l1 img { width: 300px; margin-left: 550px; }
 
-#s2 { width: 100%; height: 650px; background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/movie/bg.jpg');}
+#s2 { width: 100%; height: 650px; background-image: linear-gradient( rgba(225, 225, 225, 0.5), rgba(225, 225, 225, 0.5) ), url('/img/movie/bg.png'); background-size: cover; background-repeat: no-repeat;}
 #s2 .list { width: 100%; display: flex; text-align: center; justify-content: space-between; margin-left: 25px; }
-#s2 .list img { width: 230px; }
+#s2 .list img { width: 230px; padding-bottom: 15px;}
 #s2 h1 { font-size: 50px;  padding-top: 30px; text-align: center; }
-#s2 h1 a { color: cornflowerblue; }
+#s2 h1 a { color: #42855B; }
 #s2 hr { width: 150px; margin-left: 625px;  margin-bottom: 60px; }
 #s2 .more { margin-left: 1320px; font-size: 25px; text-decoration: underline; margin-top: 35px; }
-#s2 a { color: rgba(255, 255, 255, 0.767); }
+#s2 a { color: rgba(0, 0, 0, 0.767); }
+#s2 p {font-family: 'Yomogi';}
 
-#l2 { width: 100%; height: 350px; }
-#l2 img { width: 100px; margin-left: 660px; padding: 100px 0; }
+#l22 { width: 100%; height: 250px; }
+#l22 img { width: 80px; margin-left: 650px; padding-top: 100px; }
+#l2 { width: 100%; height: 250px; }
+#l2 img { width: 100px; margin-left: 650px; padding-bottom: 100px; }
 
-#s3 { width: 100%; height: 1400px; background-image: linear-gradient( rgba(225, 225, 225, 0.6), rgba(225, 225, 225, 0.6) ),url('/img/store/bg.jpg'); background-repeat: no-repeat; background-size: cover;}
+#s3 { width: 100%; height: 1400px; background-image: linear-gradient( rgba(225, 225, 225, 0.7), rgba(225, 225, 225, 0.7) ),url('/img/store/bg.jpg'); background-repeat: no-repeat; background-size: cover;}
 #s3 h1 { font-size: 50px;  padding-top: 30px; padding-left: 200px; }
-#s3 h1 a { color: cornflowerblue; }
-#s3 hr { width: 120px; margin-left: 200px;  margin-bottom: 60px; }
+#s3 h1 a { color: #42855B; }
+#s3 hr { width: 145px; margin-left: 200px;  margin-bottom: 60px; }
 #s3 .list { width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: space-between; grid-row-gap: 100px; }
 #s3 .store a { display: flex; align-items: center; justify-content: space-between; }
 #s3 img { width: 500px; height: 300px; }
@@ -58,5 +70,5 @@ footer .flogo img { width: 300px;  margin-left: 10px; }
 footer .copy { margin-left: -70px;}
 footer .copy p { font-size: 20px;}
 footer .sns { width: 80px; display: flex; justify-content: space-between; margin-right: 30px;}
-footer .sns li { display: flex; grid-row-gap: 50px; }
+footer .sns li { display: flex; grid-row-gap: 10px; }
 footer .sns a { font-size: 20px; color: #000; }
