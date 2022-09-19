@@ -1,8 +1,8 @@
-# Ghibli
-![image](https://user-images.githubusercontent.com/62008219/187038994-87cecddd-9289-4a5c-b06b-e49d3f38da08.png)
+# 동물의 숲
+![image](https://user-images.githubusercontent.com/62008219/191030653-2ffa5a40-65f0-4fab-812b-28a015bce7c0.png)
 # main
-![image](https://user-images.githubusercontent.com/62008219/187039079-971700e9-35a7-4093-b025-60e883464cb6.png)
-# Movie
-![image](https://user-images.githubusercontent.com/62008219/187039099-1e67d1c9-2f71-4f16-a419-f07c586d91e7.png)
+![image](https://user-images.githubusercontent.com/62008219/191030753-9bf4426c-919e-4b7c-93fd-65e1afd0a081.png)
+# series
+![image](https://user-images.githubusercontent.com/62008219/191030841-047d5b34-d2c5-44a6-b76f-6a69b2e3189f.png)
 # Store & Footer
-![image](https://user-images.githubusercontent.com/62008219/187039123-68c24245-b73f-42be-a7c5-55f893bce690.png)
+![image](https://user-images.githubusercontent.com/62008219/191031131-726a8cb0-ffbe-4f8d-8ee2-d8621f1c65c7.png)
