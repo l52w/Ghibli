@@ -1,8 +1,7 @@
 @font-face {
     font-family: 'Cafe24Simplehae';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Simplehae.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-weight: normal; font-style: normal;
 }
 @import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
 
@@ -26,7 +25,7 @@ header .nav a:hover { text-decoration: underline; color: #D2D79F;}
 }
 #s1 .left { width: 700px; } 
 #s1 .left .about1 { width: 350px; padding-left: 150px; margin-top: -80px; }
-#s1 .left .about1 img { opacity: 0.7;}
+#s1 .left .about1 img { opacity: 0.85;}
 #s1 .left .about2 { position: absolute; }
 #s1 .left .about2 img { width: 350px; margin-top: -150px; margin-left: 250px; }
 #s1 .right { width: 700px; padding: 20px; line-height: 40px; padding-left: 100px; }
@@ -54,10 +53,10 @@ header .nav a:hover { text-decoration: underline; color: #D2D79F;}
 #l2 { width: 100%; height: 250px; }
 #l2 img { width: 100px; margin-left: 650px; padding-bottom: 100px; }
 
-#s3 { width: 100%; height: 1400px; background-image: linear-gradient( rgba(225, 225, 225, 0.7), rgba(225, 225, 225, 0.7) ),url('/img/store/bg.jpg'); background-repeat: no-repeat; background-size: cover;}
-#s3 h1 { font-size: 50px;  padding-top: 30px; padding-left: 200px; }
+#s3 { display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%; height: 1400px; background-image: linear-gradient( rgba(225, 225, 225, 0.7), rgba(225, 225, 225, 0.7) ),url('/img/store/bg.jpg'); background-repeat: no-repeat; background-size: cover;}
+#s3 h1 { font-size: 50px;  padding-top: 30px; }
 #s3 h1 a { color: #42855B; }
-#s3 hr { width: 145px; margin-left: 200px;  margin-bottom: 60px; }
+#s3 hr { width: 145px;  margin-bottom: 60px; }
 #s3 .list { width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: space-between; grid-row-gap: 100px; }
 #s3 .store a { display: flex; align-items: center; justify-content: space-between; }
 #s3 img { width: 500px; height: 300px; }
@@ -65,10 +64,10 @@ header .nav a:hover { text-decoration: underline; color: #D2D79F;}
 #s3 .more { margin-left: 1140px; font-size: 25px; text-decoration: underline; margin-top: 55px; }
 #s3 .more a { color: #000; }
 
-footer { width: 100%; height: 150px; background: #999; display: flex; align-items: center; justify-content: space-between; }
+footer { width: 100%; height: 150px; background: #5f685f; display: flex; align-items: center; justify-content: space-between; }
 footer .flogo img { width: 300px;  margin-left: 10px; }
 footer .copy { margin-left: -70px;}
-footer .copy p { font-size: 20px;}
+footer .copy p { font-size: 20px; color: #ffffff;}
 footer .sns { width: 80px; display: flex; justify-content: space-between; margin-right: 30px;}
 footer .sns li { display: flex; grid-row-gap: 10px; }
-footer .sns a { font-size: 20px; color: #000; }
+footer .sns a { font-size: 20px; color: #ffffff; }
